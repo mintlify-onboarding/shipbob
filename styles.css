@@ -1,0 +1,16 @@
+#content-area:after {
+    background-color: #175cff;
+    content: "© 2023 ShipBob, Inc - All Rights Reserved.";
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: left;
+    padding: 15px;
+    font-size: 90%;
+    
+    /* Set the properties to span the entire page */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999; /* Adjust the z-index if necessary */
+}
